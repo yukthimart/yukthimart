@@ -24,17 +24,63 @@
 	  width:50%;
   }
 
+.row25
+{
+	/*background-color:#e18daf;
+	color:white;*/
+	
+}
+/* Create two equal columns that floats next to each other */
+.column25 {
+  float: left;
+  width: 50%;
+  padding-left:7%;
+  padding-right:7%;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Clear floats after the columns */
+.row25:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+  .rowimg
+  {
+	  width:50%;
+  }
+.rowimg25
+  {
+	  width:25%;
+	 
+  }
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
 	width: 20%;
   }
+  .column25 {
+	width: 100%;
+	padding-left:7%;
+	padding-right:7%;
+	text-align:justify;
+
+  }
   .row{
   font-size:9px;
   }
+  .row25{
+  font-size:16px;
+  }
   .rowimg
   {
-	  width:100%;
+	  width:85%;
+  }
+  .rowimg25
+  {
+	  width:40%;
   }
 }

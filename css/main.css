@@ -2,11 +2,24 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    color: #0060B6;
+    text-decoration: none;
+}
 
-
+.borderstyle
+{
+	width:50%;
+}
+.textmission
+{
+	font-size:20px;
+	text-align:justify;
+}
 .topnav {
   overflow: hidden;
-  background-color: #e18daf;
+  /*background-color: #e18daf;*/
+  background-color: #00203F;
   margin-top:20px;
 }
 
@@ -58,4 +71,12 @@ body {
   {
 	  width:100%;
   }
+  .borderstyle
+{
+	width:100%;
+}
+.textmission
+{
+	font-size:13px;
+}
 }
