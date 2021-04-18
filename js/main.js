@@ -9,6 +9,36 @@ function myFunction()
 			x.className = "topnav";
 		}
 	}
+
+function prod1js()
+{
+	document.getElementById("prodimgsmall1").style.opacity="1";
+	document.getElementById("prodimgsmall2").style.opacity="0.7";
+	document.getElementById("prodimgsmall3").style.opacity="0.7";
+	document.getElementById("prodimg1").style.display="block";
+	document.getElementById("prodimg2").style.display="none";
+	document.getElementById("prodimg3").style.display="none";
+}
+
+function prod2js()
+{
+	document.getElementById("prodimgsmall1").style.opacity="0.7";
+	document.getElementById("prodimgsmall2").style.opacity="1";
+	document.getElementById("prodimgsmall3").style.opacity="0.7";
+	document.getElementById("prodimg1").style.display="none";
+	document.getElementById("prodimg2").style.display="block";
+	document.getElementById("prodimg3").style.display="none";
+}
+
+function prod3js()
+{
+	document.getElementById("prodimgsmall1").style.opacity="0.7";
+	document.getElementById("prodimgsmall2").style.opacity="0.7";
+	document.getElementById("prodimgsmall3").style.opacity="1";
+	document.getElementById("prodimg1").style.display="none";
+	document.getElementById("prodimg2").style.display="none";
+	document.getElementById("prodimg3").style.display="block";
+}
 	
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -36,3 +66,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+	
