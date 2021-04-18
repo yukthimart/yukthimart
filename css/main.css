@@ -16,6 +16,19 @@ a{
 	font-size:20px;
 	text-align:justify;
 }
+.prodimage
+{
+	width:70%;
+}
+.prodimgclass
+{
+	width:35%;
+
+}
+.prodimgclasssmall
+{
+	width:7%;
+}
 .topnav {
   overflow: hidden;
   /*background-color: #e18daf;*/
@@ -78,5 +91,13 @@ a{
 .textmission
 {
 	font-size:13px;
+}
+.prodimgclass
+{
+	width:85%;
+}
+.prodimgclasssmall
+{
+	width:20%;
 }
 }
