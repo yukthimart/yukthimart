@@ -24,7 +24,6 @@
 			<a href="contact.html">Contact 📞</a>
 			<a id="topnav6" href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
 		</div>
-		<br><br>
 			
 		<script src="js/main.js"></script>
 		
@@ -32,40 +31,163 @@
 			<br>
 			<center><h3 style="color:black">CATEGORIES</h3>
 			
-			<div class="column25">	
-				<img class="rowimg25" src="images/shop/fashion.png">
-				<b><p>FASHION</p></b>
-				<div>
-					<li><a href="handloomsarees.html">Handloom Sarees</a></li>
-					<li><a href="jento.html">Jento</a></li>
-				</div>
-			</div>
-			<div class="column25">	
+			
+			
+			<div class="column50" id="crafttext" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;" onclick="craftjs()">	
 				<img class="rowimg25" src="images/shop/craft.png">			
-				<b><p>CRAFT</p></b>
-				<div style="text-align:center">
-					<li><a href="vaazhai.html">Panai / Vaazhai items</a></li>
-					<li><a href="wire.html">Wire Items</a></li>
-					<li><a href="leather.html">Leather Items</a></li>
-				</div>
+				<span>CRAFT</span>
 			</div>
-			<div class="column25">	
-				<img class="rowimg25" src="images/shop/art.png">
-				<b><p>ART</p></b>
+			<div class="column50" id="fashiontext" style="background-color:lightblue;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;opacity:0.6" onclick="fashionjs()">	
+				<img class="rowimg25" src="images/shop/fashion.png">
+				<span>FASHION</span>
 			</div>
-			<div class="column25">
+			<div class="column50"  id="arttext" style="background-color:pink; box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;opacity:0.6" onclick="artsjs()">	
 				<img class="rowimg25" src="images/shop/art.png">
-				<b><p>GIFTS</p></b>
+				<span>ART &nbsp;</span>
+			</div>
+			<div class="column50"  id="giftstext" style="background-color:#C6C1E4; box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;opacity:0.6" onclick="giftsjs()">
+				<img class="rowimg25" src="images/shop/gifts.png">
+				<span>GIFTS</span>
 			</div>
 			</center>
 		</div>
+		<br>
+		
+		<div id="craftitems"  style="display:block">
+			<div class="row25">
+			<h3 style="font-family:century Gothic;text-align:center;">Wire Items</h3>
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW101</h3>
+				<img src="products/YW101/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW101.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW102</h3>
+				<img src="products/YW102/2.jpeg" width="100%">
+				<br>
+				<a href="products/YW102.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW103</h3>
+				<img src="products/YW103/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW103.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW104</h3>
+				<img src="products/YW104/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW104.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW105</h3>
+				<img src="products/YW105/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW105.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW106</h3>
+				<img src="products/YW106/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW106.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW107</h3>
+				<img src="products/YW107/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW107.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW108</h3>
+				<img src="products/YW108/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW108.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW109</h3>
+				<img src="products/YW109/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW109.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW110</h3>
+				<img src="products/YW110/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW110.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			
+			<div class="column50" style="background-color:lightgreen;box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.04);padding:5px;">	
+				<h3 style="text-align:center;Color:grey">YW111</h3>
+				<img src="products/YW111/1.jpeg" width="100%">
+				<br>
+				<a href="products/YW111.html" target="_blank">
+				<button style="width:100%;background-color:#00203F;font-size:14px;padding:10px;color:white;box-shadow: 0 4px 8px 0 blue, 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+				View Details</button>
+				</a>
+			</div>
+			</div>
+			
+		</div>
+		
+		<div id="fashionitems" style="display:none">
+			<h3 style="font-family:century gothic;text-align:center;">Fashion Items <br> Products are Yet to Add"</h3>
+		</div>
+		
+		<div id="artitems" style="display:none">
+			<h3 style="font-family:century gothic;text-align:center;">Art Items <br> Products are Yet to Add"</h3>
+		</div>
+		
+		<div id="giftsitems" style="display:none">
+			<h3 style="font-family:century gothic;text-align:center;">Gift Items <br> Products are Yet to Add"</h3>
+		</div>
+
 		<br><br>
 		<!--bottom social media-->
 		
 		<center><div style="bottom:0;position:fixed; width:100%;">
 		<a href="tel:+919626511896"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/icon/phone.png" width='40px', height='40px' style="opacity:0.5"></a>
 		<a href="https://www.youtube.com/channel/UCNEehMfqVDmvPb9BJUPFU-w"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/icon/insta.png" width='40px', height='40px' style="opacity:0.5"></a>
-		<a href="mailto:revathi.ganesh10@gmail.com?Subject=Product%20Enquiry." target="_top"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/icon/mail.png" width='40px', height='40px' style="opacity:0.5"></a>
+		<a href="mailto:yukthimart@gmail.com?Subject=Product%20Enquiry." target="_top"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/icon/mail.png" width='40px', height='40px' style="opacity:0.5"></a>
 		</div></center>
 		<script>
 		function bigImg(x) {
