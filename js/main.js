@@ -155,6 +155,36 @@ function giftsjs()
 	document.getElementById("giftsitems").style.display = "block";
 }
 
+function wire()
+{
+	
+	var wirex = document.getElementById("wireitem").style.display;
+	console.log(wirex);
+	if (wirex == 'none')
+	{
+	document.getElementById("wireitem").style.display = 'block';
+	}
+	else
+	{
+	document.getElementById("wireitem").style.display = 'none';
+	}
+}
+
+function cloth()
+{
+	
+	var clothx = document.getElementById("clothbagitems").style.display;
+	if (clothx == 'none')
+	{
+	document.getElementById("clothbagitems").style.display = "block";
+	}
+	else
+	{
+	document.getElementById("clothbagitems").style.display = "none";
+	}
+	
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
