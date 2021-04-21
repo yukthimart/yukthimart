@@ -114,10 +114,12 @@ function craftjs()
 	document.getElementById("fashiontext").style.opacity = "0.6";
 	document.getElementById("arttext").style.opacity = "0.6";
 	document.getElementById("giftstext").style.opacity = "0.6";
+	document.getElementById("foodtext").style.opacity = "0.6";
 	document.getElementById("craftitems").style.display = "block";
 	document.getElementById("fashionitems").style.display = "none";
 	document.getElementById("artitems").style.display = "none";
 	document.getElementById("giftsitems").style.display = "none";
+	document.getElementById("fooditems").style.display = "none";
 
 }
 
@@ -127,10 +129,12 @@ function fashionjs()
 	document.getElementById("fashiontext").style.opacity = "1";
 	document.getElementById("arttext").style.opacity = "0.6";
 	document.getElementById("giftstext").style.opacity = "0.6";
+	document.getElementById("foodtext").style.opacity = "0.6";
 	document.getElementById("craftitems").style.display = "none";
 	document.getElementById("fashionitems").style.display = "block";
 	document.getElementById("artitems").style.display = "none";
 	document.getElementById("giftsitems").style.display = "none";
+	document.getElementById("fooditems").style.display = "none";
 }
 function artsjs()
 {
@@ -138,10 +142,12 @@ function artsjs()
 	document.getElementById("fashiontext").style.opacity = "0.6";
 	document.getElementById("arttext").style.opacity = "1";
 	document.getElementById("giftstext").style.opacity = "0.6";
+	document.getElementById("foodtext").style.opacity = "0.6";
 	document.getElementById("craftitems").style.display = "none";
 	document.getElementById("fashionitems").style.display = "none";
 	document.getElementById("artitems").style.display = "block";
 	document.getElementById("giftsitems").style.display = "none";
+	document.getElementById("fooditems").style.display = "none";
 }
 function giftsjs()
 {
@@ -149,10 +155,25 @@ function giftsjs()
 	document.getElementById("fashiontext").style.opacity = "0.6";
 	document.getElementById("arttext").style.opacity = "0.6";
 	document.getElementById("giftstext").style.opacity = "1";
+	document.getElementById("foodtext").style.opacity = "0.6";
 	document.getElementById("craftitems").style.display = "none";
 	document.getElementById("fashionitems").style.display = "none";
 	document.getElementById("artitems").style.display = "none";
 	document.getElementById("giftsitems").style.display = "block";
+	document.getElementById("fooditems").style.display = "none";
+}
+function foodjs()
+{
+	document.getElementById("crafttext").style.opacity = "0.6";
+	document.getElementById("fashiontext").style.opacity = "0.6";
+	document.getElementById("arttext").style.opacity = "0.6";
+	document.getElementById("giftstext").style.opacity = "0.6";
+	document.getElementById("foodtext").style.opacity = "1";
+	document.getElementById("craftitems").style.display = "none";
+	document.getElementById("fashionitems").style.display = "none";
+	document.getElementById("artitems").style.display = "none";
+	document.getElementById("giftsitems").style.display = "none";
+	document.getElementById("fooditems").style.display = "block";
 }
 
 function wire()
