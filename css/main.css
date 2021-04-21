@@ -50,22 +50,14 @@ a{
 .titlename 
 {
 font-family:century gothic;
-text-shadow: 5px 5px 8px lightblue;
+text-shadow: 5px 5px 8px grey;
 color: #7D018C;
 font-size:30px;
-animation-name: example;
-animation-duration: 4s;
-animation-iteration-count: 10;
+background-color:pink;
+border-radius:35%;
+width:10%;
 }
 
-@keyframes example 
-{
-	0%   {color:#7D018C;}
-	25%  {color:#3C1053;}
-	50%  {color:blue;}
-	75%  {color:green;}
-	100% {color:#7D018C;}
-}
 
 .topnav {
   overflow: hidden;
@@ -141,5 +133,9 @@ animation-iteration-count: 10;
 .familytext
 {
 	width:90%;
+}
+.titlename
+{
+	width:35%;
 }
 }
