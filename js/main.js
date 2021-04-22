@@ -206,6 +206,21 @@ function cloth()
 	
 }
 
+function jewels()
+{
+	
+	var clothx = document.getElementById("jewelitems").style.display;
+	if (clothx == 'none')
+	{
+	document.getElementById("jewelitems").style.display = "block";
+	}
+	else
+	{
+	document.getElementById("jewelitems").style.display = "none";
+	}
+	
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
