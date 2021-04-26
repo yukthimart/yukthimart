@@ -121,6 +121,7 @@ function craftjs()
 	document.getElementById("giftsitems").style.display = "none";
 	document.getElementById("fooditems").style.display = "none";
 
+
 }
 
 function fashionjs()
@@ -189,6 +190,7 @@ function wire()
 	{
 	document.getElementById("wireitem").style.display = 'none';
 	}
+	window.history.pushState({"html":"","pageTitle":""},"", '?wire');
 }
 
 function cloth()
@@ -203,6 +205,7 @@ function cloth()
 	{
 	document.getElementById("clothbagitems").style.display = "none";
 	}
+	window.history.pushState({"html":"","pageTitle":""},"", '?cloth');
 	
 }
 
@@ -218,6 +221,7 @@ function jewels()
 	{
 	document.getElementById("jewelitems").style.display = "none";
 	}
+	window.history.pushState({"html":"","pageTitle":""},"", '?jewels');
 	
 }
 
