@@ -20,6 +20,21 @@ a{
 	font-size:20px;
 	text-align:justify;
 }
+.previous {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 50%;
+   text-decoration: none;
+  display: inline-block;
+  padding: 4px 8px;
+}
+.previousbutton{
+  background-color: #4CAF50;
+  color: white;
+    padding: 4px 8px;
+	  border-radius: 5%;
+}
+
 .prodimage
 {
 	width:70%;
